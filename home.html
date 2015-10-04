@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="./css/reset.css" media="all" />
+		<link type="text/css" rel="stylesheet" href="./css/all.css" media="all" />
+		<link type="text/css" rel="stylesheet" href="./css/home.css" media="all" />
+		<title>Wild Circus Freakshow - Home</title>
+	</head>
+	<body>
+		<nav id="menu">
+			<ul>
+				<li>
+					<a href="./home.html">contact</a>
+				</li>
+				<li>
+					<a href="./home.html">buy tickets</a>
+				</li>
+				<li>
+					<a href="./lobster-boy.html">performers</a>
+				</li>
+				<li>
+					<a href="./home.html">shows</a>
+				</li>
+				<li class="active">
+					<a href="./home.html">home</a>
+				</li>
+				<div class="clearfix"></div>
+			</ul>
+		</nav>
+		<section id="first">
+			<img src="./img/logo-home.png" alt="Wild Circus Freakshow" title="" />
+		</section>
+		<section id="second">
+			<h1>
+				welcome to <br />
+				<span>wild circus freakshow</span>
+			</h1>
+			<hr/>
+			<p>Welcome to the Wild Circus Freakshow! Come in and get prepared to see our amazing and talented perfomers in a unique in the world show! </p>
+			<p>Created in 2014, WCF has for vocation to find best talents in stranger bodies. Let yourself be taken away by this strange and fascinating univers, don't be afraid, dare meet those unique God's forgotten creatures.</p>
+		</section>
+		<section id="third">
+			<h1>
+				November<br />
+				<span>programme</span>
+			</h1>
+			<hr/>
+			<p>For our next show, we're very proud of showing you our last member, who is officialy joined Wild World Circus few days ago : Bette and Dot, the siemens twins. </p>
+			<p>Borned with extraordinary psychic abilities, the show have been changed to celebrate with dignity the arrival of this sensational personn. Jimmy, Zombie Boy, Bette and Dott will offer you a unforgettable show wich gonna seduce young ans old.</p>
+		</section>
+		<section id="fourth">
+			<h1>
+				<hr/>
+				<span>performers</span>
+			</h1>
+			<div>
+				<a href="./lobster-boy.html">
+					<div>
+						<div class="descript">
+							<h2>Jimmy</h2>
+							<p>lobster boy</p>
+						</div>
+						<img src="./img/perf-1.jpg" alt="Jimmy - Lobster boy" title="" />
+					</div>
+				</a>
+				<a href="./immune.html">
+					<div>
+						<div class="descript">
+							<h2>Zombie boy</h2>
+							<p>the immune</p>
+						</div>
+						<img src="./img/perf-2.jpg" alt="Zombie boy - The Immune" title="" />
+					</div>
+				</a>
+				<a href="./twins.html">
+					<div>
+						<div class="descript">
+							<h2>Dot and Bett</h2>
+							<p>Siemens Twins</p>
+						</div>
+						<img src="./img/perf-3.jpg" alt="Dot and Bett - Siemens twins" title="" />
+					</div>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+		
+		<!-- Javascript -->
+		<script type="text/javascript" src="./js/jquery-1.7.min.js"></script>
+		<script>
+			(jQuery)(function($) {
+				$(window).on("resize load", function() {
+					$("#first img").css("marginTop", $("#first").height() / 2 - $("#first img").height() / 2 + "px");
+				});
+			});
+		</script>
+	</body>
+</html>
