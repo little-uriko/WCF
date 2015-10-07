@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+
+#link {
+	display: inline-block;
+	width: 34.4%;
+}
+
+#link img {
+	width: 100%;
+}

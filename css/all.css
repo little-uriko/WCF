@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'bigNoodle';
+	src: url('./font/big_noodle_titling.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Dosis';
+	src: url('./font/Dosis-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Forte';
+	src: url('./font/FORTE.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: bigNoodle;
+}
+
+body {
+	background: black;
+}
+
+.clearfix {
+	clear:both;
+    height: 0;
+    width: 1px;
+    display:block;
+}
+
+#menu {
+	background: black;
+	color: #99803D;
+	text-transform: uppercase;
+	text-align: right;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5000;
+}
+
+#menu li {
+	float:right;
+	font-size: 27px;
+	padding: 0 2.5%;
+	position: relative;
+}
+
+#menu li:hover {
+	color: black !important;
+	background: #99803D;
+}
+
+#menu li:hover ul {
+	display: block;
+}
+
+#menu li.active {
+	color: #929292;
+}
+
+#menu li a {
+	color: inherit;
+	text-decoration: none;
+	padding: 10px 0;
+	display: inline-block;
+}
+
+#menu li > ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background: black;
+}
+
+#menu li > ul li {
+	display: block;
+	color: #99803D;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: left;
+	border-top: 1px solid #99803D;
+	border-bottom: 1px solid #99803D;
+}
+
+#menu li > ul li:first-child {
+	border-top: none;
+}
+
+#menu li > ul li:last-child {
+	border-bottom: none;
+}
+
+#menu li > ul li a {
+	display: inline-block;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#footer {
+	width: 100%;
+	position: relative;
+	top: -60px;
+	background: rgba(0,0,0,0.5);
+}
+
+#footer div {
+	margin: 0 auto;
+	width: 190px;
+}
+
+#footer div a  {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 13px;
+}
+
+#footer div a span {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+
+#tw span {
+	background-image: url('../img/tw.png');
+}
+
+#tw:hover span {
+	background-image: url('../img/tw-hover.png');
+}
+
+#fb span {
+	background-image: url('../img/fb.png');
+}
+
+#fb:hover span {
+	background-image: url('../img/fb-hover.png');
+}
+
+#yt span {
+	background-image: url('../img/yt.png');
+}
+
+#yt:hover span {
+	background-image: url('../img/yt-hover.png');
+}

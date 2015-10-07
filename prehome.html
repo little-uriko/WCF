@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="./css/reset.css" media="all" />
+		<link type="text/css" rel="stylesheet" href="./css/all.css" media="all" />
+		<link type="text/css" rel="stylesheet" href="./css/prehome.css" media="all" />
+		<title>Wild Circus Freakshow</title>
+	</head>
+	<body>
+		<a id="link" href="./home.html">
+			<img src="./img/logo-home.png" alt="Wild Circus Freakshow" title="" />
+		</a>
+		<script type="text/javascript" src="./js/jquery-1.7.min.js"></script>
+		<script>
+			(jQuery)(function($) {
+				$(window).on("resize load", function() {
+					$("#link").css("marginTop", $("body").height() / 2 - $("#link img").height() / 2 + "px");
+				});
+			});
+		</script>
+	</body>
+</html>

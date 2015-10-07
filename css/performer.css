@@ -1,0 +1,134 @@
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: white;
+}
+
+section.title div {
+	box-sizing: border-box;
+	position: absolute;
+	padding-left: 20%;
+}
+
+section.title h1 {
+	font-size: 52px;
+}
+
+section.title h2 {
+	font-size: 40px;
+}
+
+section.title hr {
+	border: 4px solid #99803D;
+}
+
+section.histo div {
+	box-sizing: border-box;
+	position: absolute;
+	padding-right: 10%;
+	right: 0;
+	width: 40%;
+	/*line-height: 10px;*/
+	/*font-size: 20px;*/
+	/*letter-spacing: 10px*/
+}
+
+section.histo h1 {
+	font-size: 20px;
+	margin-top: 17px;
+}
+
+section.histo h2 {
+	font-size: 40px;
+}
+
+section.histo hr {
+	border: 2px solid #99803D;
+}
+
+section.histo p {
+	font-family: Dosys;
+}
+
+section.show div {
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	width: 60%;
+}
+
+section.show h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+section.show h2 {
+	font-size: 30px;
+	margin-top: 17px;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+section.show hr {
+	border: 2px solid #99803D;
+}
+
+section.show p {
+	font-family: Dosys;
+	text-align: center;
+	width: 70%; 
+	margin: 10px auto;
+}
+
+section.lobster.title {
+	background: url('../img/jimmy-1.jpg');
+}
+
+section.lobster.title div {
+	box-sizing: border-box;
+	position: absolute;
+	padding-right: 20%;
+	right: 0;
+}
+
+section.lobster.histo {
+	background: url('../img/jimmy-2.jpg');
+}
+
+section.lobster.histo div {
+	box-sizing: border-box;
+	position: absolute;
+	padding-left: 10%;
+	left: 0;
+	width: 40%;
+}
+
+section.lobster.show {
+	background: url('../img/jimmy-3.jpg');
+}
+
+section.immune.title {
+	background: url('../img/zombie-1.jpg');
+}
+
+section.immune.histo {
+	background: url('../img/zombie-2.jpg');
+}
+
+section.immune.show {
+	background: url('../img/zombie-3.jpg');
+}
+
+section.twin.title {
+	background: url('../img/sister-1.jpg');
+}
+
+section.twin.histo {
+	background: url('../img/sister-2.jpg');
+}
+
+section.twin.show {
+	background: url('../img/sister-3.jpg');
+}
